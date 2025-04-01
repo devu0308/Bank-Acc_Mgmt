@@ -48,13 +48,6 @@ To run this project, you need:
    - Exit the application.
 3. Account data is saved to a file and loaded on startup.
 
-## Project Structure
-
-Bank-Acc-Mgmt/
-
-├── main.cpp          # Main code
-└── README.md         # Project documentation
-
 ## Contributing
 Feel free to fork this project and submit pull requests with improvements or bug fixes. Suggestions for new features are welcome!
 
