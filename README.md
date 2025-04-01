@@ -53,7 +53,6 @@ To run this project, you need:
 Bank-Acc-Mgmt/
 
 ├── main.cpp          # Main code
-
 └── README.md         # Project documentation
 
 ## Contributing
