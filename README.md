@@ -1,7 +1,3 @@
-To improve the readability of your README file, you can format the "Authors" section and "Project Structure" section so that each entry appears on a separate line. Markdown uses specific syntax for line breaks and code blocks, so I'll fix those issues for you. Below is the revised version of your README file with proper formatting:
-
----
-
 # Bank Account Management
 
 ## Overview
