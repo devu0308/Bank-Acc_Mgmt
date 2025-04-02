@@ -50,13 +50,12 @@ To run this project, you need:
    - Insert the account number.
    - Perform transactions (deposit, withdraw, check balance).
    - Exit the application.
-
+<!-- 
 ## Future Enhancements
 
 - Implement file handling to store account data persistently.
 - Add transaction history tracking.
-- Improve security with authentication mechanisms.
-- Introduce an interest calculation system.
+- Introduce an interest calculation system. -->
 
 ## Contributing
 
