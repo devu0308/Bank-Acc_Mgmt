@@ -45,7 +45,7 @@ To run this project, you need:
 ## Usage
 
 1. Launch the program.
-2. Follow the on-screen menu to:
+2. Follow the menu to:
    - Insert your name.
    - Insert the account number.
    - Perform transactions (deposit, withdraw, check balance).
