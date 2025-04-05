@@ -33,6 +33,18 @@ public:
 };
 int main()
 {
+    string name;
+    int accNum;
+    double bal;
+
+    cout << "Enter Account Holder's name :";
+    getline(cin, name);
+    cout << "Enter Account number :";
+    cin >> accNum;
+    cout << "Enter Initial Balance : $";
+    cin >> bal;
+
+    BankAccount account(name, accNum, bal);
     
     return 0;
 }
