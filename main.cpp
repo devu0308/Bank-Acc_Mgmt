@@ -43,6 +43,15 @@ void withdraw(double amount)
                  << "Current Balance is $" << balance << endl;
         }
     }
+void dispAccDetails()
+    {
+        cout << "\nAccount holder name :" << accountHolderName << "\nAccount number" << accountNumber << "\nCurrent Balance : " << balance << endl;
+    }
+};
+    void displayMenu()
+    {
+        cout << "\n1.Deposit Money\n2.Withdraw Money\n3.View Account Details\n4.Exit program\nPlease enter your choice" << endl;
+    }
 };
 int main()
 {
