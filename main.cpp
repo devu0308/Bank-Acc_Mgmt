@@ -30,6 +30,19 @@ public:
             cout << "Amount must be greater than 0" << endl;
         }
     }
+void withdraw(double amount)
+    {
+        if (amount <= balance)
+        {
+            balance -= amount;
+            cout << "Withdrew :" << amount << "Balance :" << balance <<endl;
+        }
+        else
+        {
+            cout << "Insufficient balance" << endl
+                 << "Current Balance is $" << balance << endl;
+        }
+    }
 };
 int main()
 {
