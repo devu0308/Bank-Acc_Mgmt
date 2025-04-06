@@ -52,7 +52,6 @@ void dispAccDetails()
     {
         cout << "\n1.Deposit Money\n2.Withdraw Money\n3.View Account Details\n4.Exit program\nPlease enter your choice" << endl;
     }
-};
 int main()
 {
     string name;
