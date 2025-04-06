@@ -66,6 +66,13 @@ int main()
     cin >> bal;
 
     BankAccount account(name, accNum, bal);
-    
+
+    int a;
+    double amount;
+    while (true)
+    {
+        displayMenu();
+        
+    }
     return 0;
 }
