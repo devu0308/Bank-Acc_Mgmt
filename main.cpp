@@ -72,7 +72,21 @@ int main()
     while (true)
     {
         displayMenu();
-        
+     switch (a)
+        {
+        case 1:
+            cout << "Enter the amount to deposit :$";
+            cin >> amount;
+            account.Deposit(amount);
+            break;
+        case 2:
+            cout << "Enter the amount you want to withdraw :$";
+            cin >> amount;
+            account.withdraw(amount);
+            break;
+        default:
+            break;
+        }   
     }
     return 0;
 }
