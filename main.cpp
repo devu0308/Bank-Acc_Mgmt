@@ -84,6 +84,11 @@ int main()
             cin >> amount;
             account.withdraw(amount);
             break;
+            case 3:
+            account.dispAccDetails();
+            break;
+        case 4:
+            cout << "Thank you for using the Access Denied's Bank Account Management System. Goodbye!" << endl;
         default:
             break;
         }   
