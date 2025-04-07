@@ -73,7 +73,7 @@ int main()
     {
         displayMenu();
         cin >> a;
-        
+
         switch (a)
         {
         case 1:
@@ -93,7 +93,7 @@ int main()
             cout << "Thank you for using the Access Denied's Bank Account Management System. Goodbye!" << endl;
             break;
         default:
-        cout<<"H";
+        cout<<"Invalid choice, Please enter between 1-4.";
             break;
         }   
     }
