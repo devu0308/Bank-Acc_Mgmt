@@ -72,7 +72,9 @@ int main()
     while (true)
     {
         displayMenu();
-     switch (a)
+        cin >> a;
+        
+        switch (a)
         {
         case 1:
             cout << "Enter the amount to deposit :$";
@@ -84,12 +86,14 @@ int main()
             cin >> amount;
             account.withdraw(amount);
             break;
-            case 3:
+        case 3:
             account.dispAccDetails();
             break;
         case 4:
             cout << "Thank you for using the Access Denied's Bank Account Management System. Goodbye!" << endl;
+            break;
         default:
+        cout<<"H";
             break;
         }   
     }
